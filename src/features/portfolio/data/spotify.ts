@@ -52,7 +52,7 @@ type SpotifyRecentResponse = {
 function mapTrack(
   track:
     | SpotifyNowPlayingResponse["item"]
-    | SpotifyRecentResponse["items"][number]["track"]
+    | NonNullable<SpotifyRecentResponse["items"]>[number]["track"]
     | null
     | undefined,
   isPlaying: boolean
