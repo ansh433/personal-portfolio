@@ -35,7 +35,7 @@ import { rehypeComponent } from "@/lib/rehype-component"
 import { rehypeNpmCommand } from "@/lib/rehype-npm-command"
 import { remarkCodeImport } from "@/lib/remark-code-import"
 import { cn } from "@/lib/utils"
-import { AutoTypeTable } from "@/registry/components/auto-type-table"
+
 
 import { Callout } from "./callout"
 import { CodeTabs } from "./code-tabs"
@@ -89,7 +89,6 @@ const components: MDXRemoteProps["components"] = {
   IframeEmbed,
   FramedImage,
   Testimonial,
-  AutoTypeTable: (props) => <AutoTypeTable {...props} generator={generator} />,
 }
 
 const options: MDXRemoteProps["options"] = {
