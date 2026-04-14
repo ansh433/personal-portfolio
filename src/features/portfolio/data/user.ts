@@ -24,8 +24,7 @@ export const USER: User = {
 - Interested in distributed systems, real-time collaboration, and building products that hold up under real usage.
 - Currently shaping projects around infrastructure, workflow design, and developer-friendly experiences.
 `,
-  avatar:
-    "https://api.dicebear.com/9.x/initials/svg?seed=Ansh%20Verma&backgroundColor=111111&textColor=ffffff",
+  avatar: "",
   ogImage:
     "https://assets.chanhdai.com/images/screenshot-og-image-dark.png?v=8",
   namePronunciationUrl: "",
