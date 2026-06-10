@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import type { ProfilePage as PageSchema, WithContext } from "schema-dts"
 
 import { Blog } from "@/features/portfolio/components/blog"
+import { Design } from "@/features/portfolio/components/design"
 import { ProfileHeader } from "@/features/portfolio/components/profile-header"
 import { Projects } from "@/features/portfolio/components/projects"
 import { SocialLinks } from "@/features/portfolio/components/social-links"
@@ -31,6 +32,9 @@ export default function Page() {
         <Separator />
 
         <Projects />
+        <Separator />
+
+        <Design />
         <Separator />
 
         <SocialLinks />

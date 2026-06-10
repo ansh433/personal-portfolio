@@ -9,12 +9,7 @@ const BARS = [0.42, 0.78, 0.58, 0.9, 0.35]
 
 function SpotifyGlyph() {
   return (
-    <svg
-      viewBox="0 0 24 24"
-      aria-hidden
-      className="size-4"
-      fill="currentColor"
-    >
+    <svg viewBox="0 0 24 24" aria-hidden className="size-4" fill="currentColor">
       <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0Zm5.504 17.288a.748.748 0 0 1-1.03.25c-2.822-1.724-6.37-2.114-10.548-1.161a.75.75 0 1 1-.333-1.462c4.571-1.044 8.49-.602 11.663 1.336a.75.75 0 0 1 .248 1.037Zm1.47-3.271a.935.935 0 0 1-1.286.312c-3.23-1.986-8.154-2.562-11.977-1.402a.938.938 0 0 1-.545-1.794c4.366-1.324 9.8-.68 13.502 1.597a.937.937 0 0 1 .306 1.287Zm.126-3.407C15.223 8.31 8.815 8.1 5.114 9.224a1.125 1.125 0 1 1-.656-2.152c4.248-1.289 11.311-1.04 15.819 1.638a1.125 1.125 0 1 1-1.177 1.9Z" />
     </svg>
   )
@@ -22,9 +17,9 @@ function SpotifyGlyph() {
 
 export async function Spotify() {
   noStore()
-  const { track, reason } = await getSpotifyState()
+  const { track } = await getSpotifyState()
   const isPlaying = !!track?.isPlaying
-  const trackStatusLabel = track ? (isPlaying ? "Now playing" : "Last played") : null
+  const trackStatusLabel = track ? "Last played" : null
   const primaryLabel = track ? track.title : "Currently not playing"
   const secondaryLabel = track ? track.artist : null
 
@@ -65,7 +60,7 @@ export async function Spotify() {
                 {BARS.map((height, index) => (
                   <span
                     key={index}
-                    className="w-1 rounded-full bg-success animate-[spotify-bounce_1.1s_ease-in-out_infinite]"
+                    className="w-1 animate-[spotify-bounce_1.1s_ease-in-out_infinite] rounded-full bg-success"
                     style={{
                       height: `${height * 26}px`,
                       animationDelay: `${index * 0.12}s`,
@@ -88,13 +83,11 @@ export async function Spotify() {
           >
             <div className="min-w-0 text-right">
               {trackStatusLabel && (
-                <p className="truncate font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
+                <p className="truncate font-mono text-[11px] tracking-[0.18em] text-muted-foreground uppercase">
                   {trackStatusLabel}
                 </p>
               )}
-              <p className="truncate text-sm font-medium">
-                {primaryLabel}
-              </p>
+              <p className="truncate text-sm font-medium">{primaryLabel}</p>
               {secondaryLabel && (
                 <p className="truncate font-mono text-xs text-muted-foreground">
                   {secondaryLabel}

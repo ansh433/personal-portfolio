@@ -10,6 +10,10 @@ export const PROJECTS: Project[] = [
     link: "https://subtitle-generator-lemon.vercel.app/",
     liveLink: "https://subtitle-generator-lemon.vercel.app/",
     githubLink: "https://github.com/ansh433/subtitle_generator",
+    image: {
+      src: "/projects/subgen.webp",
+      alt: "SubGen subtitle generation dashboard preview",
+    },
     skills: [
       "Node.js",
       "TypeScript",
@@ -35,6 +39,10 @@ export const PROJECTS: Project[] = [
     link: "https://excali-draw-frontend.vercel.app/",
     liveLink: "https://excali-draw-frontend.vercel.app/",
     githubLink: "https://github.com/ansh433/ExcaliDraw",
+    image: {
+      src: "/projects/drawly.webp",
+      alt: "Drawly collaborative whiteboard preview",
+    },
     skills: [
       "TypeScript",
       "Next.js",
@@ -44,12 +52,43 @@ export const PROJECTS: Project[] = [
       "Turborepo",
       "Canvas API",
     ],
-    description: `Real-time collaborative whiteboard and chat platform focused on low-latency sync, modular architecture, and smooth canvas interactions.
+    description: `Real-time collaborative whiteboard platform focused on low-latency sync, modular architecture, and smooth canvas interactions.
 
 - Structured the app as a Turborepo monorepo with separate frontend, API, and WebSocket services plus shared packages
-- Built room-based real-time synchronization for drawing data and live chat
+- Built room-based real-time synchronization for shared drawing data
 - Developed a custom canvas engine using the Canvas and Pointer Events APIs for responsive drawing performance
 - Implemented coordinate normalization and inverse-matrix style transformations to support seamless panning and zooming`,
+  },
+  {
+    id: "aurelia-private-villas",
+    title: "Aurelia Villas",
+    period: {
+      start: "2025",
+    },
+    link: "https://aurelia-villas.vercel.app/",
+    liveLink: "https://aurelia-villas.vercel.app/",
+    githubLink: "https://github.com/ansh433/booking-system",
+    image: {
+      src: "/projects/booking_system.webp",
+      alt: "Aurelia Villas booking platform preview",
+    },
+    skills: [
+      "Next.js",
+      "TypeScript",
+      "Express",
+      "Prisma",
+      "PostgreSQL",
+      "Clerk",
+      "Stripe",
+      "Docker",
+      "Terraform",
+    ],
+    description: `Villa booking platform with guest booking, admin operations, atomic availability checks, and webhook-driven Stripe payment confirmation.
+
+- Built full-stack booking flow with Clerk auth, quote generation, Stripe checkout, and booking status tracking
+- Implemented PostgreSQL backend with transactional booking creation and immutable stored pricing
+- Added admin workflows for properties, pricing overrides, blocked dates, bookings, and revenue metrics
+- Optimized guest-facing Next.js frontend with SEO metadata, local image assets, and strong Lighthouse scores`,
   },
   {
     id: "nyaysetu",
@@ -60,6 +99,10 @@ export const PROJECTS: Project[] = [
     link: "https://just-fair-seven.vercel.app/",
     liveLink: "https://just-fair-seven.vercel.app/",
     githubLink: "https://github.com/ansh433/JustFair",
+    image: {
+      src: "/projects/nyaysetu.webp",
+      alt: "NyaySetu legal aid platform preview",
+    },
     skills: [
       "React",
       "Node.js",
