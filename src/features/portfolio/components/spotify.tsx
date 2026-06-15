@@ -19,7 +19,11 @@ export async function Spotify() {
   noStore()
   const { track } = await getSpotifyState()
   const isPlaying = !!track?.isPlaying
-  const trackStatusLabel = track ? "Last played" : null
+  const trackStatusLabel = track
+    ? isPlaying
+      ? "Now playing"
+      : "Last played"
+    : null
   const primaryLabel = track ? track.title : "Currently not playing"
   const secondaryLabel = track ? track.artist : null
 
