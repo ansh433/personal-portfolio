@@ -1,7 +1,6 @@
 import dynamic from "next/dynamic"
 
 import { DesktopNav } from "@/components/desktop-nav"
-import { SiteHeaderMark } from "@/components/site-header-mark"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { Separator } from "@/components/ui/separator"
 import { MAIN_NAV, MOBILE_NAV } from "@/config/site"
@@ -20,10 +19,6 @@ export function SiteHeader() {
     <>
       <header className="sticky top-0 z-50 max-w-screen overflow-x-hidden bg-background px-2 pt-2">
         <div className="screen-line-top screen-line-bottom mx-auto flex h-12 items-center justify-between gap-2 border-x border-line px-2 group-has-data-[slot=layout-wide]/layout:container after:z-1 after:transition-[background-color] sm:gap-4 md:max-w-3xl">
-          <div className="transition-[scale] ease-out active:scale-[0.98] has-data-[visible=false]:pointer-events-none">
-            <SiteHeaderMark />
-          </div>
-
           <div className="flex-1" />
 
           <DesktopNav items={MAIN_NAV} />

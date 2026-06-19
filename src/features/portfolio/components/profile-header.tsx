@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 import { USER } from "@/features/portfolio/data/user"
 import { TextFlip } from "@/registry/components/text-flip"
 
@@ -11,10 +13,15 @@ export function ProfileHeader() {
       <div className="shrink-0 border-r border-line">
         <div className="mx-0.5 my-0.75">
           <AvatarElectricEffect>
-            <div className="flex size-30 items-center justify-center rounded-full bg-foreground text-background ring-1 ring-border ring-offset-2 ring-offset-background select-none sm:size-40">
-              <span className="font-mono text-2xl font-semibold sm:text-3xl">
-                AV
-              </span>
+            <div className="relative size-30 overflow-hidden rounded-full ring-1 ring-border ring-offset-2 ring-offset-background sm:size-40">
+              <Image
+                src="/projects/portfolio-image.webp"
+                alt="Ansh Verma"
+                fill
+                priority
+                sizes="(min-width: 640px) 160px, 120px"
+                className="object-cover"
+              />
             </div>
           </AvatarElectricEffect>
         </div>
