@@ -4,7 +4,8 @@ import type { ProfilePage as PageSchema, WithContext } from "schema-dts"
 import { Blog } from "@/features/portfolio/components/blog"
 import { Design } from "@/features/portfolio/components/design"
 import { ProfileHeader } from "@/features/portfolio/components/profile-header"
-import { Projects } from "@/features/portfolio/components/projects"
+import { AI } from "@/features/portfolio/components/ai"
+import { Fullstack } from "@/features/portfolio/components/fullstack"
 import { SocialLinks } from "@/features/portfolio/components/social-links"
 import { Spotify } from "@/features/portfolio/components/spotify"
 import { TechStack } from "@/features/portfolio/components/tech-stack"
@@ -31,7 +32,10 @@ export default function Page() {
         <ProfileHeader />
         <Separator />
 
-        <Projects />
+        <AI />
+        <Separator />
+
+        <Fullstack />
         <Separator />
 
         <Design />

@@ -1,4 +1,4 @@
-import { PROJECTS } from "../../data/projects"
+import { AI_PROJECTS } from "../../data/ai"
 import {
   Panel,
   PanelContent,
@@ -6,21 +6,21 @@ import {
   PanelTitle,
   PanelTitleSup,
 } from "../panel"
-import { ProjectItem } from "./project-item"
+import { ProjectItem } from "../fullstack/project-item"
 
-export function Projects() {
+export function AI() {
   return (
-    <Panel id="projects">
+    <Panel id="ai">
       <PanelHeader>
         <PanelTitle>
-          Projects
-          <PanelTitleSup>({PROJECTS.length})</PanelTitleSup>
+          AI
+          <PanelTitleSup>({AI_PROJECTS.length})</PanelTitleSup>
         </PanelTitle>
       </PanelHeader>
 
       <PanelContent className="p-0">
         <div className="grid md:grid-cols-2">
-          {PROJECTS.map((project, index) => (
+          {AI_PROJECTS.map((project, index) => (
             <div
               key={project.id}
               className={

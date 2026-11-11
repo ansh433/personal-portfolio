@@ -8,11 +8,7 @@ export const USER: User = {
   gender: "male",
   pronouns: "he/him",
   bio: "Backend developer with an eye for detail.",
-  flipSentences: [
-    "Backend developer with an eye for detail.",
-    "Building reliable systems.",
-    "Learning in public.",
-  ],
+  flipSentences: ["Fullstack", "Agentic AI", "Deployments", "Automations"],
   address: "Mumbai, India",
   phoneNumber: "",
   email: "dmVybWE0YW5zaEBnbWFpbC5jb20=",

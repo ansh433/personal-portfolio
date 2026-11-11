@@ -48,10 +48,15 @@ const MENU_LINKS: CommandLinkItem[] = [
     shortcut: "GH",
   },
   {
-    title: "Projects",
-    href: "/#projects",
+    title: "AI",
+    href: "/#ai",
     icon: <BoxIcon />,
     shortcut: "GP",
+  },
+  {
+    title: "Fullstack",
+    href: "/#fullstack",
+    icon: <BoxIcon />,
   },
   {
     title: "Socials",
@@ -197,7 +202,9 @@ function CommandMenuTrigger({ ...props }: React.ComponentProps<typeof Button>) {
     >
       <Icons.search />
 
-      <span className="font-sans text-sm/4 font-medium sm:hidden">Search...</span>
+      <span className="font-sans text-sm/4 font-medium sm:hidden">
+        Search...
+      </span>
 
       <KbdGroup className="hidden sm:in-[.os-macos_&]:flex">
         <Kbd className="w-5 min-w-5">Cmd</Kbd>

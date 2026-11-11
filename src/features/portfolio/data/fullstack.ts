@@ -1,6 +1,6 @@
 import type { Project } from "../types/projects"
 
-export const PROJECTS: Project[] = [
+export const FULLSTACK_PROJECTS: Project[] = [
   {
     id: "subgen",
     title: "SubGen",
@@ -23,7 +23,7 @@ export const PROJECTS: Project[] = [
       "Docker",
       "GitHub Actions",
     ],
-    description: `Distributed subtitle-generation platform for large video files with fault-tolerant job processing and automated subtitle rendering.
+    description: `Subtitle-generation platform for large video files with fault-tolerant job processing and automated subtitle rendering.
 
 - Engineered Redis-backed queue processing with crash recovery, checkpointing, and graceful shutdown patterns
 - Combined serverless APIs with long-running workers to balance cost and heavy FFmpeg processing
