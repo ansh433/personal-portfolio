@@ -3,10 +3,20 @@ import type { NavItem } from "@/types/nav"
 
 export const SITE_INFO = {
   name: USER.displayName,
-  url: process.env.APP_URL || "http://localhost:3000",
+  url: getSiteUrl(),
   ogImage: USER.ogImage,
   description: USER.bio,
   keywords: USER.keywords,
+}
+
+function getSiteUrl(): string {
+  const configuredUrl = process.env.APP_URL?.trim().replace(/\/+$/, "")
+
+  if (configuredUrl && !/localhost|127\.0\.0\.1/.test(configuredUrl)) {
+    return configuredUrl
+  }
+
+  return "https://www.anshv.xyz"
 }
 
 export const META_THEME_COLORS = {

@@ -26,7 +26,7 @@ export const USER: User = {
 `,
   avatar: "",
   ogImage:
-    "https://assets.chanhdai.com/images/screenshot-og-image-dark.png?v=8",
+    "/og/simple?title=Ansh%20Verma&description=Backend%20developer%20with%20an%20eye%20for%20detail.",
   namePronunciationUrl: "",
   timeZone: "Asia/Kolkata",
   keywords: [

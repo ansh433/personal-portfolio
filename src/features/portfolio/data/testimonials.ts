@@ -108,7 +108,7 @@ export const TESTIMONIALS_1: Testimonial[] = [
     authorName: "OrcDev",
     authorTagline: "Creator of 8bitcn.com",
     url: "https://x.com/orcdev/status/2011373509310878010",
-    quote: "@iamncdai is one of the best design engineers!",
+    quote: "One of the best design engineers!",
     date: "2026-01-14",
   },
   {
@@ -132,7 +132,7 @@ export const TESTIMONIALS_1: Testimonial[] = [
     authorName: "Megh",
     authorTagline: "Creator of patterncraft.fun",
     url: "https://x.com/meghtrix/status/2017658774530781471",
-    quote: "The best looking website I've ever seen? @iamncdai portfolio!",
+    quote: "The best looking website I've ever seen?",
     date: "2026-02-01",
   },
   {
