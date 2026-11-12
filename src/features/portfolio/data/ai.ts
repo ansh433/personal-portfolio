@@ -31,7 +31,7 @@ export const AI_PROJECTS: Project[] = [
       alt: "Cogent AI coding agent runtime preview",
     },
     skills: ["Python", "Anthropic", "Gemini", "Groq", "Textual", "Pytest"],
-    description: `An AI coding harness for your terminal, similar to Claude Code, with provider flexibility, approval-gated tools, and resumable coding sessions.
+    description: `An AI coding harness for the terminal, similar to Claude Code, with flexible providers and approval-gated tools.
 
 - Lets language models explore repositories, answer questions, and help implement code changes
 - Supports Anthropic, Gemini, and Groq through a shared provider interface
