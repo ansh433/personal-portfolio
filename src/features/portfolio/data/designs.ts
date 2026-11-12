@@ -4,8 +4,8 @@ export const DESIGNS: Design[] = [
   {
     id: "arctic-merch",
     title: "Arctic Merch",
-    link: "https://arctic-merch.vercel.app/",
-    liveLink: "https://arctic-merch.vercel.app/",
+    link: "https://arctic.anshv.xyz/",
+    liveLink: "https://arctic.anshv.xyz/",
     image: {
       src: "/projects/ecommstore.webp",
       alt: "Arctic Merch ecommerce storefront preview",

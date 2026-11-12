@@ -7,11 +7,13 @@ export const AI_PROJECTS: Project[] = [
     period: {
       start: "2026",
     },
-    link: "",
+    link: "https://seoagent.anshv.xyz/",
+    liveLink: "https://seoagent.anshv.xyz/",
     image: {
       src: "/projects/seo_agent.webp",
       alt: "SiteIntel SEO and AI discoverability audit platform preview",
     },
+    githubLink: "https://github.com/ansh433/seo_agent",
     skills: ["Python", "FastAPI", "LangGraph", "React", "TypeScript"],
     description: `Technical SEO and AI discoverability audit platform for evidence-backed website analysis and remediation guidance.
 
@@ -26,6 +28,7 @@ export const AI_PROJECTS: Project[] = [
       start: "2026",
     },
     link: "",
+    githubLink: "https://github.com/ansh433/coding_agent",
     image: {
       src: "/projects/cogent.webp",
       alt: "Cogent AI coding agent runtime preview",

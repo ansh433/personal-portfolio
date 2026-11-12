@@ -7,8 +7,8 @@ export const FULLSTACK_PROJECTS: Project[] = [
     period: {
       start: "2025",
     },
-    link: "https://subtitle-generator-lemon.vercel.app/",
-    liveLink: "https://subtitle-generator-lemon.vercel.app/",
+    link: "https://subgen.anshv.xyz/",
+    liveLink: "https://subgen.anshv.xyz/",
     githubLink: "https://github.com/ansh433/subtitle_generator",
     image: {
       src: "/projects/subgen.webp",
@@ -36,8 +36,8 @@ export const FULLSTACK_PROJECTS: Project[] = [
     period: {
       start: "2025",
     },
-    link: "https://excali-draw-frontend.vercel.app/",
-    liveLink: "https://excali-draw-frontend.vercel.app/",
+    link: "https://drawly.anshv.xyz/",
+    liveLink: "https://drawly.anshv.xyz/",
     githubLink: "https://github.com/ansh433/ExcaliDraw",
     image: {
       src: "/projects/drawly.webp",
@@ -65,8 +65,8 @@ export const FULLSTACK_PROJECTS: Project[] = [
     period: {
       start: "2025",
     },
-    link: "https://aurelia-villas.vercel.app/",
-    liveLink: "https://aurelia-villas.vercel.app/",
+    link: "https://aurelia.anshv.xyz/",
+    liveLink: "https://aurelia.anshv.xyz/",
     githubLink: "https://github.com/ansh433/booking-system",
     image: {
       src: "/projects/booking_system.webp",
@@ -96,8 +96,8 @@ export const FULLSTACK_PROJECTS: Project[] = [
     period: {
       start: "2024",
     },
-    link: "https://just-fair-seven.vercel.app/",
-    liveLink: "https://just-fair-seven.vercel.app/",
+    link: "https://nyaysetu.anshv.xyz/",
+    liveLink: "https://nyaysetu.anshv.xyz/",
     githubLink: "https://github.com/ansh433/JustFair",
     image: {
       src: "/projects/nyaysetu.webp",
