@@ -41,4 +41,30 @@ export const AI_PROJECTS: Project[] = [
 - Provides safe tools for reading files, searching code, running commands, and working with Git
 - Includes approval prompts, resumable sessions, context compaction, and a full-screen terminal UI`,
   },
+  {
+    id: "voice-agent",
+    title: "Voice Agent",
+    period: {
+      start: "2026",
+    },
+    link: "",
+    image: {
+      src: "/projects/voice.webp",
+      alt: "Voice Agent bilingual automotive service desk preview",
+    },
+    skills: [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "LiveKit",
+      "Deepgram",
+      "Groq",
+      "ElevenLabs",
+    ],
+    description: `Bilingual automotive voice service desk for conversations about vehicle service needs and appointment availability.
+
+- Implemented a LiveKit browser voice agent for English, Hindi, and Hinglish conversations
+- Added read-only tools for services, slots, and customer appointment history
+- Implemented authenticated FastAPI sessions with PostgreSQL business rules and deterministic test coverage`,
+  },
 ]
