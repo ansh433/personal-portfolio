@@ -47,7 +47,9 @@ export const AI_PROJECTS: Project[] = [
     period: {
       start: "2026",
     },
-    link: "",
+    link: "https://mita.anshv.xyz/",
+    liveLink: "https://mita.anshv.xyz/",
+    githubLink: "https://github.com/ansh433/voice_agent",
     image: {
       src: "/projects/voice.webp",
       alt: "Voice Agent bilingual automotive service desk preview",
