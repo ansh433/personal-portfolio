@@ -77,6 +77,7 @@ export const AI_PROJECTS: Project[] = [
     },
     link: "https://compass.anshv.xyz/",
     liveLink: "https://compass.anshv.xyz/",
+    githubLink: "https://github.com/ansh433/competitor_analysis_agent",
     image: {
       src: "/projects/compass.webp",
       alt: "Compass Intelligence company and competitor research workspace preview",
