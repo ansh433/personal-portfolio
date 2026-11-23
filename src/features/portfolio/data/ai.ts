@@ -90,11 +90,10 @@ export const AI_PROJECTS: Project[] = [
       "Protobuf",
       "Docker",
     ],
-    description: `A full-stack research agent that turns company and competitor analysis into reusable, source-backed decision dossiers.
+    description: `A source-backed research agent for company and competitor decision dossiers.
 
-- Built bounded LangGraph workflows for identity resolution, competitor discovery, pricing normalization, evidence-gap loops, and report verification
-- Combined Gemini-assisted synthesis with Tavily search, safe URL retrieval, deterministic providers, and confidence-based evidence classification
-- Developed tenant-isolated FastAPI services with JWT authentication, quotas, PostgreSQL persistence, durable checkpoints, and pause/resume research runs
-- Shipped a React and TypeScript workspace with streamed Protobuf-over-SSE progress, citations, comparison matrices, branching investigations, and dossier reports`,
+- Built bounded workflows for company resolution, competitor discovery, pricing analysis, and report verification
+- Combined web research, source retrieval, confidence scoring, and explicit evidence classifications
+- Shipped a workspace with persistent dossiers, streamed progress, citations, comparison matrices, and resumable research runs`,
   },
 ]
