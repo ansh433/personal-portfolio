@@ -69,4 +69,32 @@ export const AI_PROJECTS: Project[] = [
 - Added read-only tools for services, slots, and customer appointment history
 - Implemented authenticated FastAPI sessions with PostgreSQL business rules and deterministic test coverage`,
   },
+  {
+    id: "compass-intelligence",
+    title: "Compass Intelligence",
+    period: {
+      start: "2026",
+    },
+    link: "https://compass.anshv.xyz/",
+    liveLink: "https://compass.anshv.xyz/",
+    image: {
+      src: "/projects/compass.webp",
+      alt: "Compass Intelligence company and competitor research workspace preview",
+    },
+    skills: [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "LangGraph",
+      "Tavily",
+      "Protobuf",
+      "Docker",
+    ],
+    description: `A full-stack research agent that turns company and competitor analysis into reusable, source-backed decision dossiers.
+
+- Built bounded LangGraph workflows for identity resolution, competitor discovery, pricing normalization, evidence-gap loops, and report verification
+- Combined Gemini-assisted synthesis with Tavily search, safe URL retrieval, deterministic providers, and confidence-based evidence classification
+- Developed tenant-isolated FastAPI services with JWT authentication, quotas, PostgreSQL persistence, durable checkpoints, and pause/resume research runs
+- Shipped a React and TypeScript workspace with streamed Protobuf-over-SSE progress, citations, comparison matrices, branching investigations, and dossier reports`,
+  },
 ]
